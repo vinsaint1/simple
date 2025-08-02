@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>simple</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <section class="sticky-top navbar11">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-5 w-100 ">
+      <div class="container-sm navbar111">
+        <a class="navbar-brand" href="#"><img class="imgitem" src="./images/simple_logo-removebg-preview (1).png"
+            alt="" /></a>
+
+        <button class="d-lg-none navbod" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
+          aria-controls="offcanvasResponsive" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-lg-none"></span>
+        </button>
+
+        <div class="offcanvas-lg offcanvas-end navsize" tabindex="-1" id="offcanvasResponsive"
+          aria-labelledby="offcanvasResponsiveLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+
+              <div class="adflex">
+                <img class="imgitem imgitem2" src="./images/simple_logo-removebg-preview (1).png" alt="" />
+                <button type="button" class="btn-close" id="adbut" data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+              </div>
+
+              <ul class="navbar-nav item3 lhover">
+                <li class="nav-item">
+                  <a class="nav-link active text-danger fw-medium" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abcolor fw-medium" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abcolor fw-medium" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link abcolor fw-medium" href="#testimonals">Testimonals</a>
+                </li>
+                <li class="nav-item item2">
+                  <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#booking-modal">
+                    Contact us
+                  </button>
+                </li>
+              </ul>
+            </h5>
+          </div>
+
+          <div class="offcanvas-body">
+            <div class="collapse navbar-collapse item11" id="navbarNav">
+              <ul class="navbar-nav item33 lhover">
+                <li class="nav-item">
+                  <a class="nav-link active text-danger fw-medium" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-medium abcolor" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-medium abcolor" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-medium abcolor" href="#testimonals">Testimonals</a>
+                </li>
+                <li class="nav-item item22">
+                  <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#booking-modal">
+                    Contact us
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- model section -->
+
+  <div class="modal fade" tabindex="-1" id="booking-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header book">
+          <h5 class="modal-title">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <form action="#" class="gap">
+            <div class="row g-1">
+
+              <div class="spacing">
+                <label for="text" class="fw-medium">Name</label>
+                <input type="text" id="text" placeholder="Name" class="form-control input1" />
+              </div>
+
+
+              <div class="spacing2">
+                <label for="email" class="fw-medium">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" class="form-control input1" />
+              </div>
+
+
+              <div class="spacing3">
+                <label for="textarea" class="fw-medium">Message</label>
+              </div>
+              <textarea class="spacing4" name="text" id="textarea" placeholder="Enter your Message"></textarea>
+
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- banner -->
+  <section class="navbar11">
+    <div class="bg-body-tertiary p-5 w-100 mb-5 banner">
+      <h1 class="fw-bold ">
+        Search engine optimisation
+        <div>&
+          Marketing.
+        </div>
+      </h1>
+      <p>
+        Simple is a simple template with a creative design that solves all your marketing and SEO queries.
+      </p>
+
+      <div class="adbut1">
+        <button type="button" class="adbut ada1"><a class="ada" href="#">Get started</a></button>
+        <button type="button" class="adbut ada2"><a class="adda" href="#">Learn more</a></button>
+      </div>
+
+      <div>
+        <img src="./images/Group171.svg" class="img-fluid" alt="...">
+        <span id="about"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- banner-two -->
+  <section id="about">
+    <div class="banner-two">
+      <h1>
+        How does it works
+      </h1>
+      <p>
+        One theme that serves as an easy-to-use operational toolkit
+        <br> that meets customer's needs.
+      </p>
+    </div>
+    <div class="bbb twoban">
+      <div class=" px-5  container w-100 coco">
+        <div class="row">
+          <div class="col-md-4 text-start bod content mt-5">
+            <div class="ppp ms-lg-5">
+              <img class="w-20" src="./images/Group12.svg" alt="">
+              <h2>speed <br>
+                optimization</h2>
+              <p class="w-75">
+                Lorem ipsum dolor sit amet, tincidunt vestibulum.
+                Fusce egeabus consectetuer turpis, suspendisse
+              </p>
+              <div>
+                <a href="#"> Readmore </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md bod d-md-flex bod2">
+            <div class="ppp ms-lg-5 content abati mt-5">
+              <img class="w-20" src="./images/Group7.svg" alt="">
+              <h2>SEO and <br>
+                Backlinks</h2>
+              <p class="w-75">
+                Lorem ipsum dolor sit amet, tincidunt vestibulum.
+                Fusce egeabus consectetuer turpis, suspendisse
+              </p>
+              <div>
+                <a href=""> Readmore </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 bod">
+            <div class="ppp ms-lg-5 content mt-5">
+              <img class="w-20" src="./images/Group5.svg" alt="">
+              <h2>Content <br>
+                Marketing</h2>
+              <p class="w-75" id="blog">
+                Lorem ipsum dolor sit amet, tincidunt vestibulum.
+                Fusce egeabus consectetuer turpis, suspendisse
+              </p>
+              <div>
+                <a href="#">Readmore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- banner three -->
+  <section class="py-5 ban3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 p-4">
+          <h2>We Offer a Full Range of Digital Marketing Services!</h2>
+          <p class="mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget vestibulum turpis, sit amet suspendisse.
+          </p>
+          <p class="ppz">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget vestibulum turpis.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="./images/Group1.png" class="img-fluid" alt="Digital marketing services graphic ">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- banner 3of3 -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div
+          class="bamimg col-lg-6 col-md-6 p-4 order-lg-1 order-md-2 order-sm-2 order-2 d-md-flex justify-content-md-center align-items-md-center">
+          <img class="img-fluid bamimg1" src="./images/Group2.png" alt="Digital agency solution graphic">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-sm-1 order-1 bam">
+          <div class="p-3 text-start">
+            <h2>Leading Digital Agency for Business Solution</h2>
+            <p class="mb-3">
+              Power-packed with impressive features and well-optimized, this template is designed to provide the best
+              performance in all circumstances.
+            </p>
+            <p class="ppz">
+              Its smart features make it a powerful stand-alone website building tool.
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline-primary ms-3 w-25 buttt">Read more</button>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="text-center cape2">
+      <h1>
+        Our case studies
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, tincidunt vestibulum.
+      </p>
+    </div>
+  </section>
+
+  <!-- cases -->
+  <section>
+    <div class="container text-center py-5 cape">
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box banner1 case1">
+            <img src="./images/Group95.svg" alt="Banner 1" class="img-fluid">
+          </div>
+          <div class="case00">
+            <a href="#">
+              <h5>Online Marketing</h5>
+              <p> Seo, Marketing</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box banner2 case2">
+            <img src="./images/Group108.svg" alt="Banner 2" class="img-fluid">
+          </div>
+          <div class="case00">
+            <a href="#">
+              <h5>Web Development</h5>
+              <p> Developing, Designing</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box banner3 case3">
+            <img src="./images/Group126.svg" alt="Banner 3" class="img-fluid">
+          </div>
+          <div class="case00">
+            <a href="#">
+              <h5>Web Designing</h5>
+              <p> Designing, Developing</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box banner4 case4">
+            <img src="./images/Group115.svg" alt="Banner 4" class="img-fluid">
+          </div>
+          <div class="case00 " id="testimonals">
+            <a href="#">
+              <h5>Software Development</h5>
+              <p> Developing, Designing</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <section>
+    <div class="text-center py-5 cape3">
+      <h1>
+        What our customers have to say
+      </h1>
+      <p class="fs-5 text-secondary">
+        Lorem ipsum dolor sit amet, tincidunt vestibulum.
+      </p>
+    </div>
+  </section>
+
+  <section class="cardbody">
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face20.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face1.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">kenedy Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face2.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face3.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face8.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face15.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face16.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face20.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <div class="card-image">
+                <img src="./images/face2.jpg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"></h2>
+              <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="linne"> </div>
+
+              <div class="des1 fw-bold">Tony Martinez</div>
+              <div class="des2">Marketing Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 
+       <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="slast ">
+          <div class="fs-3 fw-medium">Do you have any projects?
+            <p>Contact Us
+            <p>
+
+          </div>
+          <button type="button" class="btn btn-outline-danger slastbtn" data-bs-toggle="modal"
+            data-bs-target="#booking-modal">Contact Us</button>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+ 
+
+
+
+  <section>
+    <div class="container text-center py-5  sei">
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12 semiF sei sei1">
+          <img src="./images/simple_logo-removebg-preview (1).png" alt="">
+          <div class="semiF1">
+            mikayla_beer@feil.name906-179-8309
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 sei sei2">
+          <h2 class="fs-4">Get in Touch</h2>
+          Don’t miss any updates of our new templates and extensions.!
+
+          <input type="email" name="email" id="email" placeholder="E-mail" class="sminput">
+          <input type="submit" value="submit" class="sminput2">
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 sei sei3">
+          <h2 class="fs-4">Our Guidelines</h2>
+          <div>
+            <div>Terms</div>
+
+            <div class="mt-2">Privacy policy</div>
+
+            <div class="mt-2">Cookie Policy</div>
+
+            <div class="mt-2">Discover</div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 sei sei4">
+          <h2 class="fs-4">Our address</h2>
+          518 Schmeler Neck
+          Bartlett. Illinois
+          <div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container text-center">
+  <div class="row">
+    <div class="col">
+   <div class="final"></div>
+    <div class="final1"> Copyright © 2019 <a href="#">Bootstrapdash</a>. All rights reserved.</div>
+    <div class="final2">Distributed By: <a href="#">Themewagon</a></div>
+    </div>
+  
+
+
+
+
+
+</body>
+<script src="./js/swiper-bundle.min.js"></script>
+
+
+<script src="js/script.js"></script>
+
+</html>
